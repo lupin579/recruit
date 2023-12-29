@@ -1,0 +1,23 @@
+name: "recruit"
+mode: "dev"
+port: "8081"
+version: "v0.0.1"
+start_time: "2022-11-29"
+machine_id: 1
+static_file_path: "D:/gogogo/recruit/static"
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "xuan0623"
+  dbname: "recruit"
+  max_open_conns: 200
+  max_idle_conns: 50
+
+redis:
+  host: "127.0.0.1"
+  port: "6379"
+  password: ""
+  db: 0
+
